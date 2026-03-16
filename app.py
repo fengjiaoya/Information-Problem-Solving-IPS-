@@ -6,7 +6,7 @@ import os
 
 # --- OpenAI Configuration ---
 # Ensure you replace this with your actual API key
-client = OpenAI(api_key="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")
+client = OpenAI(api_key="your actual API key")
 
 # --- 1. Global State & Logging Setup ---
 if 'behavior_logs' not in st.session_state:
