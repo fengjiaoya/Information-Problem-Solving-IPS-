@@ -4,11 +4,11 @@
 [cite_start]This platform is a specialized Web application designed to investigate **Information Problem Solving (IPS)** and **Self-Regulated Learning (SRL)** in online environments[cite: 1, 9, 462, 471]. [cite_start]Using the **SR-ISPS model** as an analytic framework, the tool captures how learners iterate between **Problem Representation (PR)** and **Solution Generation (SG)** when tackling ill-structured tasks[cite: 511, 512, 1118, 1119].
 
 ## 🧪 Theoretical Framework
-[cite_start]The platform is built to identify and record specific cognitive and metacognitive behaviors[cite: 11, 203, 814]:
-* [cite_start]**I (Instruction)**: Orientation and task-definition behaviors[cite: 610, 1121].
-* [cite_start]**Q (Query)**: Information-seeking intent and problem re-representation[cite: 610, 1123].
-* [cite_start]**P (Processing)**: Information evaluation and reading of AI-generated content[cite: 610, 1123].
-* [cite_start]**W (Writing)**: Solution implementation and knowledge integration[cite: 610, 1123].
+[cite_start]The platform is built to identify and record specific cognitive and metacognitive behaviors:
+* [cite_start]**I (Instruction)**: Orientation and task-definition behaviors.
+* [cite_start]**Q (Query)**: Information-seeking intent and problem re-representation.
+* [cite_start]**P (Processing)**: Information evaluation and reading of AI-generated content].
+* [cite_start]**W (Writing)**: Solution implementation and knowledge integration.
 
 ## 🛠️ Core Features
 * **Split-Screen Interface**: A dual-column layout with the **Dynamic Notebook** on the left (Solution Generation) and the **AI Assistant** on the right (Problem Representation).
@@ -38,10 +38,10 @@
 3.  The platform will automatically open in your default browser (typically at `localhost:8501`).
 
 ## 📊 Data Output
-[cite_start]The platform generates a `comprehensive_research_log.csv` file structured for **Lag Sequential Analysis (LSA)**[cite: 614, 615]. Data includes:
+[cite_start]The platform generates a `comprehensive_research_log.csv` file structured for **Lag Sequential Analysis (LSA)**. Data includes:
 * `timestamp`: Precision timing for **Time-on-Task** analysis.
 * `action_type`: Coded identifiers for behavioral transitions ($I, Q, P, W, F$).
-* [cite_start]`content_snapshot`: Text data for qualitative triangulation[cite: 193, 619, 1182].
+* [cite_start]`content_snapshot`: Text data for qualitative triangulation.
 * `current_note_length`: Quantitative measure of writing productivity.
 
 ## ⚖️ License
