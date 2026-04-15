@@ -1,7 +1,7 @@
 # IPS Research & Experiment Platform
 
 ## 📌 Project Overview
-[cite_start]This platform is a specialized Web application designed to investigate **Information Problem Solving (IPS)** and **Self-Regulated Learning (SRL)** in online environments[cite: 1, 9, 462, 471]. [cite_start]Using the **SR-ISPS model** as an analytic framework, the tool captures how learners iterate between **Problem Representation (PR)** and **Solution Generation (SG)** when tackling ill-structured tasks[cite: 511, 512, 1118, 1119].
+[cite_start]This platform is a specialized Web application designed to investigate **Information Problem Solving (IPS)** and **Self-Regulated Learning (SRL)** in online environments. [cite_start]Using the **SR-ISPS model** as an analytic framework, the tool captures how learners iterate between **Problem Representation (PR)** and **Solution Generation (SG)** when tackling ill-structured tasks.
 
 ## 🧪 Theoretical Framework
 [cite_start]The platform is built to identify and record specific cognitive and metacognitive behaviors:
@@ -13,7 +13,7 @@
 ## 🛠️ Core Features
 * **Split-Screen Interface**: A dual-column layout with the **Dynamic Notebook** on the left (Solution Generation) and the **AI Assistant** on the right (Problem Representation).
 * **High-Fidelity Logging**: Every interaction is timestamped and saved to a CSV file (`comprehensive_research_log.csv`), recording action types, content snapshots, and writing progress (note length).
-* [cite_start]**Scaffolded AI Interaction**: Integrated System Prompts restrict the AI to an "Educational Tutor" mode, providing qualitative feedback rather than direct answers to encourage deep processing[cite: 14, 95, 386].
+* [cite_start]**Scaffolded AI Interaction**: Integrated System Prompts restrict the AI to an "Educational Tutor" mode, providing qualitative feedback rather than direct answers to encourage deep processing.
 * **Persistence**: Uses Streamlit `session_state` to maintain the experiment context across user interactions.
 
 ## 🚀 Getting Started
