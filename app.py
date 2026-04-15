@@ -6,7 +6,7 @@ import os
 
 # --- OpenAI Configuration ---
 # Ensure you replace this with your actual API key
-client = OpenAI(api_key="your actual API key")
+client = OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
 
 # --- 1. Global State & Logging Setup ---
 if 'behavior_logs' not in st.session_state:
