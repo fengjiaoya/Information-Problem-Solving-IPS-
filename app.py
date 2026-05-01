@@ -62,7 +62,7 @@ with st.expander("📌 CLICK HERE FOR TASK INSTRUCTIONS", expanded=False):
     st.info(task_description)
 
 # Create layout columns
-col_note, col_chat = st.columns([1, 1])
+col_chat, col_note = st.columns([1, 1])
 
 # B. LEFT: Dynamic Notebook (W) - Capturing Solution Generation (SG)
 with col_note:
